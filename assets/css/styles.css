@@ -1,0 +1,186 @@
+body{
+    background: url(../imgen/ciclistades.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.aling{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+.navegador{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    padding-left: 7%;
+    border-radius: 46%;
+}
+.baner img{
+    width: 100%;
+    height: auto;
+    margin:  0;
+    padding: 0;
+}
+.carou iframe{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: auto;
+    font-family: 'Otomanopee One', sans-serif;
+}
+#main h1, h3{
+    display:  flex;
+    justify-content:  center;
+    text-align:  center;
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#main .redes{
+    display: flex;
+    flex-direction:  row;
+    justify-content:  center;
+    flex-wrap:  nowrap;
+
+}
+.redes{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#cuerpo {
+    margin-top:  5%;
+    margin-bottom: 5%;
+    background-color: #091320a8;
+    color: white;
+}
+#cuerpo img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding:5%;
+    display:   flex;
+    justify-content: center;
+
+}
+#novedades{
+    width: 100%;
+    height: 250px;
+    padding: 35px;
+}
+#galeria h2{
+    background-color: rgb(225 237 255 / 72%);
+    font-family: 'Otomanopee One', sans-serif;
+    margin-top: 5%;
+}
+#galeria .col-lg-3, .col-lg-6 {
+    margin: 0;
+    padding:25px;
+}
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#salida .col-lg-12{
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding:25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#salida h1{
+    background-color: rgb(225 237 255 / 72%);
+    font-family: 'Otomanopee One', sans-serif;
+    margin-top: 5%;
+}
+#salida img{
+    width: 100%;
+    height: 100%;
+}
+#imgsal img {
+    padding:25px;
+}
+#contacto{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    background-color: rgb(225 237 255 / 72%);
+    font-family: 'Otomanopee One', sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.con{
+    margin: 0;
+    padding:25px;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction:  row;
+    justify-content:  space-around;
+    margin-top: 3%;
+}
+footer h4 {
+    color: white;
+    margin:  0;
+    padding: 0;
+    display:  flex;
+    justify-content: center;
+
+}
+footer h5{
+    color: white;
+    display:  flex;
+    justify-content: center;
+}
+.sal{
+    background-color: rgb(5 9 13 / 76%);;
+    color: white;
+    margin-bottom: 2%;
+    display: flex;
+
+}
+.vid{
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content:  center;
+}
+.coment{
+    background-color: rgb(255 255 255 / 96%);
+}
+.listafo {
+    color: white;
+}
